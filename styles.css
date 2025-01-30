@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:bisque;
+    line-height: 1.5;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+    
+
+}
+
+header {
+    background-color:brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    
+    
+}
+main{
+    flex: 1;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    
+}
+
+
+
+
+
+section {
+    
+    flex: 1;
+    max-width: 500px;
+    border-radius: 6px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    background-color: burlywood;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+section h2 {
+    font-family:cursive;
+    font-style: italic;
+     margin-bottom: 1em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1em;
+
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+}
+
