@@ -19,8 +19,9 @@ header {
     
 }
 main{
+    flex:1;
     flex-wrap: wrap;
-
+    padding: 1em;
     display: flex;
     gap: 1.2rem;
     justify-content: center;
